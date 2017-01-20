@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "substratum.theme.styleos"
+        applicationId "com.cmcosta.styleos"
         minSdkVersion 23
         targetSdkVersion 24
         versionCode 1
