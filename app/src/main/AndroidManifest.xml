@@ -41,7 +41,7 @@
         <!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="all|ready|stock"/> <!-- Only pick one! -->
+            android:value="stock"/> <!-- Only pick one! -->
         
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data

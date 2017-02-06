@@ -107,9 +107,9 @@
     <!-- Accent color that matches the settings launcher icon -->
     <color name="icon_accent">@android:color/holo_blue_bright</color>
 
-    <!-- layers_colors.xml -->
+    <!-- layers_colors.xml 
 
     <color name="storage_summary_title_color">@android:color/holo_blue_bright</color>
     <color name="action_picker_fab_background">@android:color/holo_purple</color>
-    <color name="text_color_black">@android:color/white</color>
+    <color name="text_color_black">@android:color/white</color> -->
 </resources>
