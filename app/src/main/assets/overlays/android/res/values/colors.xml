@@ -2,7 +2,7 @@
 <resources>
 	<color name="Teal_700">#ff00796b</color>
     <color name="Teal_800">#ff00695c</color>
-    <color name="Blue_700">#D9334C7F</color>
+    <color name="Blue_700">#ff3367d6</color>
     <color name="Blue_800">#ff2a56c6</color>
     <color name="Indigo_700">#ff303f9f</color>
     <color name="Indigo_800">#ff283593</color>
@@ -12,4 +12,15 @@
     <color name="Pink_800">#ffad1457</color>
     <color name="Red_700">#ffc53929</color>
     <color name="Red_800">#ffb93221</color>
+	
+	<color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
 </resources>

@@ -24,7 +24,7 @@
         <item name="android:textColor">#de000000</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
-    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.Light.DialogWhenLarge">
+   <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.Light.DialogWhenLarge">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>

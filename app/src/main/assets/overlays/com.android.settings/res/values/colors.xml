@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="external_tile_icon_tint_color">@*android:color/transparent</color>
+
     <color name="dashboard_category_title_background">#fffafafa</color>
     <color name="selectable_card_background">#ffffffff</color>
     <color name="card_background">#ffffffff</color>
     <color name="switch_accent_color">@android:color/holo_purple</color>
-    <color name="switchbar_background_color">@android:color/darker_gray</color>
+    <color name="switchbar_background_color">@*android:color/lighter_gray</color>
     <color name="running_processes_apps_ram">@android:color/holo_blue_bright</color>
     <color name="memory_normal">@android:color/holo_blue_bright</color>
     <color name="memory_max_use">@android:color/holo_blue_bright</color>
@@ -16,7 +18,7 @@
     <color name="theme_accent">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_200">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
-    <color name="ic_settings_icons_exposed">@android:color/holo_blue_light</color>
+    <color name="ic_settings_icons_exposed">@android:color/transparent</color>
     <color name="exposed_datachartfillcolor">@android:color/holo_blue_light</color>
     <color name="exposed_data_warning_chart_labelcolor">@android:color/holo_blue_light</color>
 </resources>
