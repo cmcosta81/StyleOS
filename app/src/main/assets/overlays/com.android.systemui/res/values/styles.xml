@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<!-- Color change statusbar icons -->
     <style name="DualToneLightTheme">
         <item name="backgroundColor">@*com.android.systemui:color/light_mode_icon_color_dual_tone_background</item>
         <item name="fillColor">@*com.android.systemui:color/light_mode_icon_color_dual_tone_fill</item>

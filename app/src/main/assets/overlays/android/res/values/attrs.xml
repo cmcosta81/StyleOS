@@ -20,4 +20,9 @@
     <attr name="windowTranslucentStatus" format="boolean"/>
     <attr name="windowTranslucentNavigation" format="boolean"/>
     <attr name="windowDrawsSystemBarBackgrounds" format="boolean"/>
+    <attr name="dialogPreferredPadding" format="dimension" />
+    <attr name="listPreferredItemPaddingStart" format="dimension" />
+    <attr name="listPreferredItemPaddingEnd" format="dimension" />
+    <attr name="statusBarColor" format="color" />
+
 </resources>
