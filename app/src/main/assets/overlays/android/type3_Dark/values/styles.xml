@@ -74,8 +74,7 @@
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
     </style>
-	
-	<style name="Theme.Material.DayNight.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
+    <style name="Theme.Material.DayNight.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
     <style name="Theme.Material.DayNight.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
     <style name="Theme.Material.DayNight.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
     <style name="Theme.Material.DayNight.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
