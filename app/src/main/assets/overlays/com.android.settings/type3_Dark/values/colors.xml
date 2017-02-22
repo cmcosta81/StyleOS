@@ -22,13 +22,12 @@
     <color name="memory_max_use">@android:color/holo_blue_bright</color>
     <color name="storage_summary_title_color">@android:color/holo_blue_light</color>
 
-    <!-- colors value from darkg -->
     <color name="theme_primary">@android:color/holo_blue_light</color>
-    <color name="theme_primary_dark">@android:color/holo_blue_dark</color>
+    <color name="theme_primary_dark">@*android:color/background_material_dark</color>
     <color name="theme_accent">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_200">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
-    <color name="ic_settings_icons_exposed">@android:color/transparent</color>
+    <color name="ic_settings_icons_exposed">@android:color/white</color>
     <color name="exposed_datachartfillcolor">@android:color/holo_blue_light</color>
     <color name="exposed_data_warning_chart_labelcolor">@android:color/holo_blue_light</color>
 </resources>
