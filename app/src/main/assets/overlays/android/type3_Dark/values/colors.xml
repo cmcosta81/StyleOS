@@ -2,13 +2,13 @@
 <resources>
 	<color name="background_material_dark">#80000000</color>
 	<color name="primary_text_default_material_dark">#ffffffff</color>
-    <color name="primary_text_default_material_light">#ff000000</color>
+	<color name="primary_text_default_material_light">#ff000000</color>
 	<color name="secondary_text_default_material_light">#ff000000</color>
 	<color name="background_dark">#ff000000</color>
-    <color name="background_floating_material_dark">#ff111111</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="button_material_dark">#ff202020</color>
+	<color name="background_floating_material_dark">#ff111111</color>
+	<color name="primary_material_dark">#ff111111</color>
+	<color name="primary_dark_material_dark">#ff000000</color>
+	<color name="button_material_dark">#ff202020</color>
 	
 	<!-- Notifications -->
 	<color name="notification_mtrl_action_textcolor">#ffffffff</color>
@@ -29,6 +29,6 @@
 	<color name="resolver_list_bg">@android:color/black</color>
 	<color name="chooser_grid_bg">@android:color/black</color>
 	<color name="app_permission_icon_tint">@android:color/white</color>
-   	<color name="exposed_resolver_list_bg">@android:color/black</color>
+	<color name="exposed_resolver_list_bg">@android:color/black</color>
 
 </resources>
