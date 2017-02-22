@@ -1,85 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textSize">@*android:dimen/notification_text_size</item>
-        <item name="android:textColor">#deFFFFFF</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
-        <item name="android:textColor">#deFFFFFF</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
-        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
-        <item name="android:textColor">#deFFFFFF</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Line2" parent="@android:style/TextAppearance.Material.Notification.Line2">
-        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
-        <item name="android:textColor">#deFFFFFF</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
-        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
-        <item name="android:textColor">#deFFFFFF</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
-        <item name="android:textSize">@*android:dimen/text_size_small_material</item>
-        <item name="android:textColor">#deFFFFFF</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-   
-   
+	<style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
+		<item name="android:textSize">@*android:dimen/notification_text_size</item>
+		<item name="android:textColor">#deFFFFFF</item>
+	</style>
+	<style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
+		<item name="android:textColor">#deFFFFFF</item>
+	</style>
+	<style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+		<item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+		<item name="android:textColor">#deFFFFFF</item>
+	</style>
+	<style name="TextAppearance.Material.Notification.Line2" parent="@android:style/TextAppearance.Material.Notification.Line2">
+		<item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+		<item name="android:textColor">#deFFFFFF</item>
+	</style>
+	<style name="TextAppearance.Material.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+		<item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+		<item name="android:textColor">#deFFFFFF</item>
+	</style>
+	<style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+		<item name="android:textSize">@*android:dimen/text_size_small_material</item>
+		<item name="android:textColor">#deFFFFFF</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>   
 	<style name="Theme.DeviceDefault" parent="@*android:style/Theme.Material" />
-    <style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
-    <style name="Theme.DeviceDefault.Dark" parent="@*android:style/Theme.Material" />
-    
-	
-	<!-- Resolver (app chooser) -->	
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-        <item name="backgroundDimEnabled">true</item>
-        <item name="windowTranslucentStatus">false</item>
-        <item name="windowTranslucentNavigation">false</item>
-        <item name="windowDrawsSystemBarBackgrounds">false</item>
-    </style>
+	<style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
+	<style name="Theme.DeviceDefault.Dark" parent="@*android:style/Theme.Material" />
+	<!-- Resolver (app chooser) -->
+	<style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorAccent">@android:color/holo_blue_bright</item>
+		<item name="android:backgroundTint">@*android:color/background_material_dark</item>
+		<item name="windowNoTitle">true</item>
+		<item name="windowIsTranslucent">true</item>
+		<item name="windowContentOverlay">@null</item>
+		<item name="backgroundDimEnabled">true</item>
+		<item name="windowTranslucentStatus">false</item>
+		<item name="windowTranslucentNavigation">false</item>
+		<item name="windowDrawsSystemBarBackgrounds">false</item>
+	</style>
 	
 	<!-- Dialogs (power menu) -->
-    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
+	<style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
 	<style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
-        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
-        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-    </style>
+		<item name="android:colorPrimary">@android:color/holo_blue_light</item>
+		<item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+		<item name="android:colorAccent">@android:color/holo_blue_bright</item>
+	</style>
 	<style name="Theme.Material.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog" />
 	<style name="Theme.Material.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
 	<style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
-    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
-    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-    </style>
-    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
+	<style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
+	<style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
+	<style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
+	<style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
+		<item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+		<item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+		<item name="android:colorAccent">@*android:color/accent_material_dark</item>
+		<item name="android:windowBackground">@*android:color/background_dark</item>
+	</style>
+	<style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
 	<style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@*android:style/Widget.Material.ButtonBar.AlertDialog" />
 	<style name="Theme.Leanback.Settings.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog">
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
-        <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ffdddddd</item>
-    </style>
-    <style name="Theme.Material.DayNight.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
-    <style name="Theme.Material.DayNight.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
-    <style name="Theme.Material.DayNight.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
-    <style name="Theme.Material.DayNight.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
-    <style name="Theme.Material.DayNight.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
-    <style name="Theme.Material.DayNight.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
-    <style name="Theme.Material.DayNight.BaseDialog" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.Material.DayNight.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog" />
+		<item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+		<item name="android:textColorPrimary">#ffffffff</item>
+		<item name="android:textColorSecondary">#ffdddddd</item>
+	</style>
+	
+	<style name="Theme.Material.DayNight.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
+	<style name="Theme.Material.DayNight.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+	<style name="Theme.Material.DayNight.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
+	<style name="Theme.Material.DayNight.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
+	<style name="Theme.Material.DayNight.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
+	<style name="Theme.Material.DayNight.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
+	<style name="Theme.Material.DayNight.BaseDialog" parent="@android:style/Theme.Material.Dialog" />
+	<style name="Theme.Material.DayNight.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog" />
 </resources>
