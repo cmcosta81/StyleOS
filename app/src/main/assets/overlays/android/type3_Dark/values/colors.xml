@@ -4,6 +4,7 @@
 	<color name="background_floating_material_dark">#ff111111</color>
 	<color name="background_dark">#ff000000</color>
 	<color name="primary_text_default_material_dark">#ffffffff</color>
+	<color name="secondary_text_default_material_dark">#ffFFFFFF</color>
 	<color name="primary_text_default_material_light">#ff000000</color>
 	<color name="secondary_text_default_material_light">#ff000000</color>
 	<color name="primary_material_dark">#ff111111</color>
@@ -23,8 +24,11 @@
 	<color name="notification_icon_bg_color">#00000000</color>
 	<color name="system_notification_accent_color">@android:color/holo_blue_bright</color>
 	<color name="ripple_material_dark">#4dffffff</color>
-	<color name="ripple_material_light">#4d000000</color>
+	<color name="ripple_material_light">#4dFFFFFF</color>
 	<color name="exposed_notification_big_pic_bg">@android:color/black</color>
+	<color name="notification_action_list">#ff999999</color>
+	<color name="notification_action_list_dark">#ff000000</color>
+
 	
 	<!-- Resolver (app chooser) -->
 	<color name="resolver_list_bg">@android:color/black</color>

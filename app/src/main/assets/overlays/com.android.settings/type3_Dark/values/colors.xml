@@ -16,7 +16,7 @@
     <color name="condition_card_second_button_text_color">@*android:color/primary_text_default_material_dark</color>
 	
     <color name="switch_accent_color">@android:color/holo_purple</color>
-    <color name="switchbar_background_color">@*android:color/lighter_gray</color>
+    <color name="switchbar_background_color">@*android:color/background_material_dark</color>
     <color name="running_processes_apps_ram">@android:color/holo_blue_bright</color>
     <color name="memory_normal">@android:color/holo_blue_bright</color>
     <color name="memory_max_use">@android:color/holo_blue_bright</color>

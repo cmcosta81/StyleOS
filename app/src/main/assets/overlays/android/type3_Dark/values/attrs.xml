@@ -20,4 +20,29 @@
     <attr name="windowTranslucentStatus" format="boolean"/>
     <attr name="windowTranslucentNavigation" format="boolean"/>
     <attr name="windowDrawsSystemBarBackgrounds" format="boolean"/>
+	<attr name="panelMenuListTheme" format="reference" />
+    <attr name="searchDialogTheme" format="reference" />
+    <attr name="headerBackground" format="reference|color" />
+    <attr name="amPmBackgroundColor" format="color" />
+    <attr name="headerSelectedTextColor" format="color" />
+    <attr name="numbersBackgroundColor" format="color" />
+    <attr name="calendarViewShown" format="boolean" />
+    <attr name="datePickerMode">
+        <enum name="calendar" value="2" />
+    </attr>
+    <attr name="dayOfWeekBackground" format="reference|color" />
+    <attr name="dayOfWeekTextAppearance" format="reference" />
+    <attr name="headerMonthTextAppearance" format="reference" />
+    <attr name="headerDayOfMonthTextAppearance" format="reference" />
+    <attr name="headerYearTextAppearance" format="reference" />
+    <attr name="yearListItemTextAppearance" format="reference" />
+    <attr name="alertDialogTheme" format="reference" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="dialogTheme" format="reference" />
+    <attr name="presentationTheme" format="reference" />
+    <attr name="windowMinWidthMajor" format="dimension|fraction" />
+    <attr name="windowMinWidthMinor" format="dimension|fraction" />
+    <attr name="imeExtractEnterAnimation" format="reference" />
+    <attr name="imeExtractExitAnimation" format="reference" />
+    <attr name="windowAnimationStyle" format="reference" />
 </resources>
